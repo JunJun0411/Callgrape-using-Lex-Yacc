@@ -82,3 +82,5 @@ int bb(){
  (3) 코드 내에서의 함수 호출 관계를 파악하고 자료구조에 저장한다.
  
  (4) 자료구조에 저장된 내용을 콜 그래프의 형태로 출력한다.  
+ 
+![result](https://user-images.githubusercontent.com/43088990/81096890-04d67b00-8f42-11ea-9083-30b68cf91ffa.jpg)
