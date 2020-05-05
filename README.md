@@ -12,6 +12,7 @@
   
 ### 2.  순서
  (1) Yacc Program을 실행 시 C 코드를 읽어오게 된다.
+
 <pre><code>컴파일 방법
 $ lex lex.l
 $ yacc –d yacc.y
@@ -20,6 +21,63 @@ $ ./proc < test.c ( proc 실행파일을 실행시킴 )
 </code></pre>
 	
  (2) 코드의 내용을 분석한다. (test.c 파일의 내용을 읽어옴)
+ 
+ <pre><code>$ cat func.c
+#include <stdio.h>
+
+int a(int dd, int dsg);
+int func(int x, int y)
+{
+        a();
+        bbb(a, x);
+        a();
+        dgs();
+}
+int main()
+{
+        int c;
+        int d=4;
+        func();
+        func();
+        for(a=fucn(); a<10; a++){
+                asdfasf();
+        }
+        while(a){
+        bbbbb();
+        }
+        aa();
+        bb(3,5);
+        int b = 10;
+        int c = aa() + ac();
+        printf();
+        cc(a,b);
+        bb(3, 32);
+        for(c=0; i<10; i++){
+                asdfdsf();
+        }
+
+        return ret() + asdfsdsfdsf();
+}
+int a(int dd, int dsg)
+{
+        prisadfadsff("%s");
+        b();
+        ebe();
+        dsgwdg();
+}
+int dsgwdg(){
+        printf();
+}
+int bdd(int x, int y){
+        ff();
+}
+int bb(){
+        a();
+        func();
+        a();
+}
+
+</code></pre>
  
  (3) 코드 내에서의 함수 호출 관계를 파악하고 자료구조에 저장한다.
  
