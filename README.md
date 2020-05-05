@@ -22,7 +22,7 @@ $ ./proc < test.c ( proc 실행파일을 실행시킴 )
 	
  (2) 코드의 내용을 분석한다. (test.c 파일의 내용을 읽어옴)
  
- <pre><code>$ cat func.c
+ <pre><code>$ cat < func.c
 #include <stdio.h>
 
 int a(int dd, int dsg);
