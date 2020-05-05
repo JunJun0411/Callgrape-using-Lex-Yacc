@@ -16,7 +16,7 @@
 $ lex lex.l
 $ yacc –d yacc.y
 $ cc y.tab.c lex.yy.c –o proc
-$ /proc% ./proc < test.c (hw4폴더에서 hw4 실행파일을 실행시킴)
+$ ./proc < test.c ( proc 실행파일을 실행시킴 )
 </code></pre>
 	
  (2) 코드의 내용을 분석한다. (test.c 파일의 내용을 읽어옴)
