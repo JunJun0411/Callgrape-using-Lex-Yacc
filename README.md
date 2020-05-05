@@ -12,11 +12,12 @@
   
 ### 2.  순서
  (1) Yacc Program을 실행 시 C 코드를 읽어오게 된다.
-	 컴파일 방법
-	$ lex lex.l
-	$ yacc –d yacc.y
-	$ cc y.tab.c lex.yy.c –o proc
-	/proc% ./proc < test.c (hw4폴더에서 hw4 실행파일을 실행시킴)
+<pre><code>컴파일 방법
+$ lex lex.l
+$ yacc –d yacc.y
+$ cc y.tab.c lex.yy.c –o proc
+$ /proc% ./proc < test.c (hw4폴더에서 hw4 실행파일을 실행시킴)
+</code></pre>
 	
  (2) 코드의 내용을 분석한다. (test.c 파일의 내용을 읽어옴)
  
